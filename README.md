@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+<div align="center">
+  <h1>다이브 프론트엔드 클론 코딩 입사 과제</h1>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <h3>(주)다이브 프론트엔드 포지션의 입사 과제입니다.</h3>
+  npm run start 커맨드로 실행할 수 있습니다.
+</div>
 
-## Available Scripts
+<br/>
 
-In the project directory, you can run:
+## FE 기술 스택
 
-### `npm start`
+- CRA로 프로젝트를 구성했습니다.
+- react-icons, react-router-dom, styled-components, styled-reset 라이브러리를 이용했습니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br/>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 개발시 주안점
 
-### `npm test`
+- 공통 컴포넌트를 분리하고, Global Style을 적용시켰습니다.
+- Chats 페이지에서 MockData로 채팅 목록을 불러오도록 구현했습니다.
+- 기능 단위 별로 브랜치를 나누고, 각 컴포넌트 단위로 커밋을 쪼개어 작업했습니다.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 커밋 컨벤션
+| 커밋 유형 | 의미 |
+| --- | --- |
+| Init | 프로젝트 시작, 초기화 |
+| Feat | 새로운 기능 추가 |
+| Fix | 버그 수정 |
+| Docs | 문서 수정 |
+| Style | 코드 formatting, 세미콜론 누락, 코드 자체의 변경이 없는 경우 |
+| Refactor | 코드 리팩토링 |
+| Test | 테스트 코드, 리팩토링 테스트 코드 추가 |
+| Chore | 패키지 매니저 수정, 그 외 기타 수정 ex) .gitignore |
+| Design | CSS 등 사용자 UI 디자인 변경 |
+| Comment | 필요한 주석 추가 및 변경 |
+| Rename | 파일 또는 폴더 명을 수정하거나 옮기는 작업만인 경우 |
+| Remove | 파일을 삭제하는 작업만 수행한 경우 |
+| !BREAKING CHANGE | 커다란 API 변경의 경우 |
+| !HOTFIX | 급하게 치명적인 버그를 고쳐야 하는 경우 |
+| Setting | 기본 세팅 변경의 경우 |

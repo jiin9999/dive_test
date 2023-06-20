@@ -1,5 +1,6 @@
 import ChatsHeader from "../Components/Chats/ChatsHeader";
 import ChatsBox from "../Components/Chats/ChatsBox";
+import ChatsNav from "../Components/Chats/ChatsNav";
 
 const Chats = () => {
   return (
@@ -8,6 +9,7 @@ const Chats = () => {
       <main>
         <ChatsBox />
       </main>
+      <ChatsNav />
     </div>
   );
 };

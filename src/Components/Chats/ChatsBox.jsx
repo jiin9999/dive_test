@@ -62,6 +62,9 @@ const ChatDetail = styled.p`
   color: #8e8e8e;
   font-weight: 300;
   font-size: 18px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 `;
 
 const NewBadge = styled.div`

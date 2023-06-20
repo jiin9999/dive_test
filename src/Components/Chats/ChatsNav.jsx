@@ -36,8 +36,6 @@ const NavContainer = styled.nav`
   background-color: #f9f9fa;
   padding: 20px 50px;
   border-top: 1px solid #dadada;
-  border-left: 1px solid #dadada;
-  border-right: 1px solid #dadada;
 `;
 
 const IconBox = styled.ul`

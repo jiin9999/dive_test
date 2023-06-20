@@ -33,7 +33,6 @@ const StyledLink = styled(Link)`
 
 const ChatContainer = styled.div`
   display: grid;
-
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 80px 1fr 50px;
   align-items: center;

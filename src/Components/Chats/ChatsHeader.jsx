@@ -9,10 +9,10 @@ const ChatsHeader = () => {
     <ChatsHeaderContainer>
       <h1>Chats</h1>
       <IconContainer>
-        <GoSearch size="30" />
-        <RiChatNewLine size="30" />
-        <HiOutlineMusicalNote size="30" />
-        <GoGear size="30" />
+        <GoSearch className="icon" />
+        <RiChatNewLine className="icon" />
+        <HiOutlineMusicalNote className="icon" />
+        <GoGear className="icon" />
       </IconContainer>
     </ChatsHeaderContainer>
   );
@@ -32,7 +32,16 @@ const ChatsHeaderContainer = styled.div`
 
 const IconContainer = styled.div`
   svg {
-    margin-left: 25px;
+    margin-left: 20px;
+  }
+
+  .icon {
+    width: 24px;
+    height: 24px;
+    @media screen and (max-width: 340px) {
+      width: 15px;
+      height: 15px;
+    }
   }
 `;
 

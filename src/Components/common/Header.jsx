@@ -39,6 +39,10 @@ const StatusLeft = styled.div`
 
   span {
     margin-right: 8px;
+
+    @media screen and (max-width: 320px) {
+      font-size: 13px;
+    }
   }
 `;
 
@@ -56,8 +60,12 @@ const StatusRight = styled.div`
   justify-content: flex-end;
   align-items: center;
 
-  & > * {
+  * {
     margin-left: 5px;
+  }
+
+  @media screen and (max-width: 320px) {
+    font-size: 13px;
   }
 `;
 export default Header;

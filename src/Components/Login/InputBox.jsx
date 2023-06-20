@@ -63,4 +63,5 @@ const FindIdPassword = styled(Link)`
   text-decoration: none;
   margin-top: 15px;
 `;
+
 export default InputBox;
